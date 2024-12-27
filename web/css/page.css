@@ -1,0 +1,202 @@
+body{
+	background-color:#251900;
+	}
+#bg{
+	width:100%;
+	height:auto;
+	background-image: url(../images/top_bg.jpg);
+	background-position:top center;
+	background-repeat:no-repeat;
+	}
+	
+/* top */
+#wrapper{
+	width:1000px;
+	height:766px;
+	margin:0 auto;
+	padding-top:1px;
+	}
+.bkbtn a{
+	width:123px;
+	height:46px;
+	margin-left:100px;
+	display:block;
+	background-image:url(../images/bk.png);
+	background-repeat:no-repeat;
+	}
+.bkbtn a:hover{
+	background-position:bottom;}
+/* top */
+
+/* center */
+#center{
+	width:100%;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+#main{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:10px;
+	}
+/* 會員登入 */
+.joinbtn a{
+	width:352px;
+	height:71px;
+	display:block;
+	background-image:url(../images/join.png);
+	background-repeat:no-repeat;
+	margin:280px 0 0 330px;
+	}
+.joinbtn a:hover{
+	background-position:bottom;}
+/* 會員登入 */
+
+/* 選擇伺服器 */
+.choosebox{
+	width:510px;
+	height:100px;
+	margin:20px auto;
+	}
+.server_box, .character_box { width:506px; height:40px; float:left; margin-bottom:10px;}
+.server_box { background-image:url(../images/choose_server.png);}
+.character_box { background-image:url(../images/choose_name.png);}
+.server_box select, .character_box select {
+	background:transparent;
+	border: none;
+	width: 320px;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 180px;
+	font-size: 16px;
+	font-family: Microsoft JhengHei;
+	color:#FFF;
+	}
+/* 選擇伺服器 */
+/* 確認綁定按鈕 */
+.checkbtn a{
+	width:262px;
+	height:71px;
+	background-image:url(../images/ok.png);
+	background-repeat:no-repeat;
+	display:block;
+	margin:0 0 0 370px;
+	}
+.checkbtn a:hover{
+	background-position:bottom;}
+/* 確認綁定按鈕 */
+.checktxt{
+	width: 450px;
+	height: 30px;
+	margin: 5px 0 0 280px;
+	font-size: 28px;
+	font-family: Microsoft JhengHei;
+	color: #F00;
+	line-height:30px;
+	}
+
+.namebox{
+	width:600px;
+	height:40px;
+	margin:5px 0 0 200px;
+	}
+.namebox .txtcon{
+	font-family:Arial, Helvetica, sans-serif, "微軟正黑體";
+	font-size:21px;
+	font-weight:bold;
+	color:#FFF;
+	float:left;
+	margin-left:15px;
+	}
+/* 獎勵表 */
+.giftlistbox{
+	width:640px;
+	margin:20px 0 0 180px;
+	}
+.gifttit{
+	width:357px;
+	height:63px;
+	background-image:url(../images/gifttit.png);
+	background-repeat:no-repeat;
+	margin:10px 0 0 150px;
+	}
+.giftlisttit{
+	background-image:url(../images/giftlisttit.jpg);
+	width:531px;
+	height:38px;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+.giftlistbox ul{
+	margin-top:5px;
+	}
+.giftlistbox li{
+	width:640px;
+	height:40px;
+	border-radius:30px;
+	background-color:#fada00;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif, "微軟正黑體";
+	font-size:24px;
+	line-height:40px;
+	overflow:hidden;
+	text-align:center;
+	}
+span.p01{
+	width:100px;
+	height:40px;
+	margin-left:80px;
+	display:block;
+	float:left;
+	}
+span.p02{
+	width:260px;
+	height:40px;
+	margin-left:20px;
+	display:block;
+	float:left;
+	}
+span.p03{
+	width:140px;
+	height:40px;
+	display:block;
+	margin-left:10px;
+	float:left;
+	}
+span.red{color:#F00;}
+span.gary{color: #666;}
+.getbtn {
+	width:140px;
+	height:39px;
+	background-image:url(../images/get.png);
+	background-repeat:no-repeat;
+	display:block;
+	}
+.getbtn:hover{ background-position:bottom;}
+/* 獎勵表 */	
+/* 確認綁定按鈕 */
+.noticebtn a{
+	width: 352px;
+	height: 71px;
+	background-image: url(../images/attention.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin: 30px 0 20px 320px;
+	}
+.noticebtn a:hover{
+	background-position:bottom;}
+/* 確認綁定按鈕 *
+/* center */
+
+/* copyright */
+#copyright{
+	width:624px;
+	height:18px;
+	margin:0 auto;
+	background-image: url(../images/copyright.png);
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+/* copyright */
